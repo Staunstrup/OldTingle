@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#767272"
+              android:orientation="horizontal"
+              android:paddingLeft="5dp"
+              android:id="@+id/thing_description" >
+
+    <TextView
+        android:id="@+id/thing_what"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What: "
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/thing_where"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="is here: "
+        android:textSize="15sp"
+        android:layout_weight="1"/>
+</LinearLayout>
