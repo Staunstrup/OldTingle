@@ -6,7 +6,7 @@ import android.support.v4.app.*;
 import android.util.Log;
 
 /*
-TingleV4: May register and store new things.  Uses fragment
+TingleV4: with SQLite as introduced in the Big Nerd book
  */
 
 public class TingleActivity extends FragmentActivity implements UIFragment.toActivity {
